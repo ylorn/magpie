@@ -1,0 +1,51 @@
+{
+  "summary": "改动只涉及「断开并还原」确认框的排版：配置文件预览（.ag-diff-wrap）和 Codex 的保留说明（.ag-note）改为跨满正文网格，正文行改为按内容高度排布，使预览不再落进编辑器的窄标签列，短窗口下也不会与下方说明重叠。",
+  "scenes": [
+    {
+      "title": "断开确认框里的配置预览",
+      "shots": [
+        {
+          "file": "01-agents-list.png",
+          "caption": "Agent 列表：Claude Desktop 已接入 magpie",
+          "width": 2560
+        },
+        {
+          "file": "02-disconnect-dialog.png",
+          "caption": "断开确认框在窗口里的样子",
+          "width": 2560
+        },
+        {
+          "file": "03-disconnect-preview.png",
+          "caption": "确认框正文：配置文件预览与正文网格的关系",
+          "width": 1296
+        },
+        {
+          "file": "04-disconnect-dialog.png",
+          "caption": "断开确认框在窗口里的样子",
+          "width": 2560
+        },
+        {
+          "file": "05-disconnect-preview.png",
+          "caption": "确认框正文：配置预览区域与正文网格的关系",
+          "width": 1296
+        },
+        {
+          "file": "06-preview-hovered.png",
+          "caption": "预览区域悬停时的布局",
+          "width": 1296
+        }
+      ]
+    }
+  ],
+  "video": "preview.mp4",
+  "poster": "poster.png",
+  "errors": [
+    "断开确认框里的配置预览 · click .disconnect-ask .ag-diff-more: nothing visible matches .disconnect-ask .ag-diff-more (0 in the page)"
+  ],
+  "leak": false,
+  "skipped": null,
+  "mismatch": "",
+  "unseen": "本沙盒只接了 DeepSeek、且只有一个已接入的 Agent（Claude Desktop），看不到断开 Codex 时那条单独占一行的保留说明（.ag-note）；描述里提到的 560×420 短窗口与 150% 字号布局，在 1280×800 的录屏里也体现不出来。",
+  "interactive": true,
+  "pages": 1
+}

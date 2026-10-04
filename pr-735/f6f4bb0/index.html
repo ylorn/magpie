@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>#735 界面预览 · f6f4bb0</title>
+<style>:root{color-scheme:light dark;--bg:#f6f6f7;--fg:#1d1d1f;--muted:#6e6e73;--card:#fff;--line:#e5e5ea}
+@media (prefers-color-scheme:dark){:root{--bg:#111113;--fg:#f2f2f4;--muted:#9a9aa0;--card:#1c1c1f;--line:#2c2c30}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,"Segoe UI","PingFang SC","Noto Sans CJK SC",sans-serif}
+main{max-width:1100px;margin:0 auto;padding:28px 16px 60px}h1{font-size:20px;margin:0 0 4px}.m{color:var(--muted);font-size:13px;margin:0 0 20px}
+video,img{display:block;width:100%;border-radius:10px;border:1px solid var(--line);background:var(--card)}figure{margin:0 0 28px}figcaption{color:var(--muted);font-size:13px;margin-top:8px}
+a{color:inherit}</style>
+<main><h1>#735 界面预览</h1><p class="m">commit f6f4bb0 · <a href="https://github.com/yetone/magpie/pull/735">回到 PR</a> · 改动只涉及「断开并还原」确认框的排版：配置文件预览（.ag-diff-wrap）和 Codex 的保留说明（.ag-note）改为跨满正文网格，正文行改为按内容高度排布，使预览不再落进编辑器的窄标签列，短窗口下也不会与下方说明重叠。</p>
+<figure><video src="preview.mp4" controls autoplay muted playsinline poster="poster.png"></video><figcaption>红线是鼠标走过的轨迹，红色圆环是一次点击；底部文字是这一步在做什么。空格暂停，← → 逐段查看。</figcaption></figure>
+<figure><img src="01-agents-list.png" alt="Agent 列表：Claude Desktop 已接入 magpie"><figcaption>断开确认框里的配置预览 · Agent 列表：Claude Desktop 已接入 magpie</figcaption></figure>
+<figure><img src="02-disconnect-dialog.png" alt="断开确认框在窗口里的样子"><figcaption>断开确认框里的配置预览 · 断开确认框在窗口里的样子</figcaption></figure>
+<figure><img src="03-disconnect-preview.png" alt="确认框正文：配置文件预览与正文网格的关系"><figcaption>断开确认框里的配置预览 · 确认框正文：配置文件预览与正文网格的关系</figcaption></figure>
+<figure><img src="04-disconnect-dialog.png" alt="断开确认框在窗口里的样子"><figcaption>断开确认框里的配置预览 · 断开确认框在窗口里的样子</figcaption></figure>
+<figure><img src="05-disconnect-preview.png" alt="确认框正文：配置预览区域与正文网格的关系"><figcaption>断开确认框里的配置预览 · 确认框正文：配置预览区域与正文网格的关系</figcaption></figure>
+<figure><img src="06-preview-hovered.png" alt="预览区域悬停时的布局"><figcaption>断开确认框里的配置预览 · 预览区域悬停时的布局</figcaption></figure>
+</main></html>
